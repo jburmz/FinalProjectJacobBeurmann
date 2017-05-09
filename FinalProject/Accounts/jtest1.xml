@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<account>
+  <username>jtest1</username>
+  <password>password</password>
+  <emailadd>jtest@test.com</emailadd>
+  <GPA>4.0</GPA>
+</account>

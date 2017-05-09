@@ -26,17 +26,48 @@
 
             </div>
 
+        </div>
+
             <div class="content">
 
                 <div class="login">
 
-                    <div class="loginText"></div>
-                    <div class="loginUser"></div>
-                    <div class="loginPassword"></div>
-                    <div class="loginButton"></div>
+                    <div class="loginText">
+                        Already have an account with us? 
+                        Returning users may log in by entering
+                        their site username and password.
+                    </div>
+
+                    <div class="mobileLogin">Log In</div>
+
+
+                    <div class="userLabel">Username</div>
+                    <input class="loginUser" type="text">
+                    <div class="userError">Must be an existing user name.</div>
+
+                    <div class="passwordLabel">Password</div>
+                    <input class="loginPassword" type="password">
+                    <div class="passwordError">Incorrect password.</div>
+
+                    <input class="loginButton" type="button" value="Log In">
 
 
                 </div>
+
+                <div class="accountInfo">
+
+                    <div class="accountLeft">
+                        <div class="accountName">Account Name</div>
+                        <!--<div class="emailAddress">E-mail Address</div>-->
+                    </div>
+
+                    <div class="accountRight">
+                        <div class="displayName"></div>
+                        <!--<input class="displayEmail" type="text">-->
+                        <!--<input class="updateButton" type="button" value="Update">-->
+                    </div>
+
+               </div>
 
                 <div class="divider">
 
@@ -44,24 +75,56 @@
 
                 <div class="create">
 
-                    <div class="createText"></div>
-                    <div class="createUser"></div>
-                    <div class="createPassword"></div>
-                    <div class="createEmail"></div>
-                    <div class="createRepeatEmail"></div>
-                    <div class="createButton"></div>
+                    <div class="createSection">
+                        <div class="createText">
+                            New users, please create a
+                            new account by providing us
+                            with some basic information.
+                        </div>
 
+                        <div class="mobileCreate">Create New Account</div>
+
+                    </div>
+
+                    <div class="createside">
+                        <div class="createUserLabel">Username</div>
+                        <input class="createUser" type="text">
+                        <div class="createUserInvalid">The username must be at least 6 characters.</div>
+                        <div class="createUserExists">The username you entered is already taken.</div>
+
+                        <div class="createPasswordLabel">Password</div>
+                        <input class="createPassword" type="password">
+                        <div class="createPasswordInvalid">The password must be at least 6 characters.</div>
+
+                        <div class="createEmailLabel">E-Mail Address</div>
+                        <input class="createEmail" type="text">
+                        <div class="createEmailInvalid">The email must have a value and contain "&#64;".</div>
+
+                        <div class="createConfirmLabel">Repeat E-Mail Address</div>
+                        <input class="createConfirm" type="text">
+                        <div class="createConfirmInvalid">Must have a value.</div>
+                        <div class="createConfirmMismatch">E-mail addresses must match.</div>
+
+                        <input class="createButton" type="button" value="Create Account">
+                    </div>
+
+            </div>
+
+                <div class="addElement">
+                    <div class="elementName">Element Name</div>
+                    <input class="elementNameInput" type="text">
+                    <div class="elementValue">Element Value</div>
+                    <input class="elementValueInput" type="text">
+                    <input class="addButton" type="button" value="Add">
                 </div>
 
-            </div>
+       
 
-            <div class="footer">
-                Cuyahoga Community College</br>
-                700 Carnegie Avenue, Cleveland, Ohio 44115
-            </div>
+        </div>
 
-            
-
+        <div class="footer">
+            Cuyahoga Community College<br>
+            700 Carnegie Avenue, Cleveland, Ohio 44115
         </div>
 
     </body>

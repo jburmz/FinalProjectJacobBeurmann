@@ -4,10 +4,16 @@
     font: 12px Calibri, regular;
 }
 
-header
+.header
 {
     text-align: left;
     font: 16px Cambria, bold;
+}
+
+.footer
+{
+    float: left;
+    clear:both;
 }
 
 .paragraph
@@ -31,6 +37,497 @@ header
     width: 480px;
     background-color: lightblue;
     margin: auto;
-    margin-top: 145px;
+    margin-top: 125px;
 
 }
+
+.createSection
+{
+    float: left;
+    width: 180px;
+    height: 170px;
+}
+
+.createAside
+{
+}
+
+
+.loginText
+{
+    width: 200px;
+    height: 60px;
+    margin: 3em 2em 0em 2em;
+    float: left;
+}
+
+.passwordLabel
+{
+    margin-top: .75em;
+    width: 60px;
+    float: left;
+}
+
+.userLabel
+{
+    margin-top: .75em;
+    width: 60px;
+    float: left;
+}
+
+.loginUser
+{
+    margin-top: .5em;
+    margin-right: 1em;
+    width: 180px;
+    float: right;
+}
+
+.loginPassword
+{
+    margin-top: .5em;
+    margin-right: 1em;
+    width: 180px;
+    float: right;
+}
+
+.loginButton
+{
+    background-color: #ADD8E6;
+    border-radius: 8px;
+    margin-right: 4em;
+    width: 120px;
+    float: right;
+    clear: left;
+}
+
+.loginButton:hover
+{
+    background-color:#FFD700;
+}
+
+.createText
+{
+    margin: 3em 2em 0em 2em;
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+
+.createUserLabel
+ {
+    margin-top: 1em;
+    width: 80px;
+    float: left;
+ }
+
+ .createUser
+ {
+    margin-top: .5em;
+    margin-right: 1em;
+    width: 180px;
+    float: right;
+
+ }
+
+ .createPasswordLabel
+ {
+    margin-top: 1em;
+    width: 80px;
+    float: left;
+ }
+
+  .createPassword
+ {
+    margin-top: .5em;
+    margin-right: 1em;
+    width: 180px;
+    float: right;
+ }
+
+   .createEmailLabel
+ {
+    margin-top: 1em;
+    width: 80px;
+    float: left;
+ }
+
+  .createEmail
+ {
+    margin-top: .5em;
+    margin-right: 1em;
+    width: 180px;
+    float: right;
+ }
+
+   .createConfirmLabel
+ {
+    margin-top: 1em;
+    width: 120px;
+    float: left;
+ }
+
+  .createConfirm
+ {
+    margin-top: .5em;
+    margin-right: 1em;
+    width: 180px;
+    float: right;
+ }
+
+.createButton
+{
+    background-color: #ADD8E6;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-right: 4em;
+    width: 120px;
+    float: right;
+    clear: right;
+}
+
+.createButton:hover
+{
+    background-color:#FFD700;
+}
+
+/*Errors*/
+
+.userError
+{
+    color: red;
+    width: 200px;
+    float: right;
+    display: none;
+}
+
+.passwordError
+{
+    color: red;
+    width: 200px;
+    float: right;
+    display: none;
+}
+
+.createUserInvalid
+{
+    color: red;
+    width: 320px;
+    float: right;
+    display: none;
+}
+
+.createUserExists
+{
+    color: red;
+    width: 320px;
+    float: right;
+    display: none;
+}
+
+.createPasswordInvalid
+{
+    color: red;
+    width: 320px;
+    float: right;
+    display: none;
+}
+
+.createEmailInvalid
+{
+    color: red;
+    width: 320px;
+    float: right;
+    display: none;
+}
+
+.createConfirmInvalid
+{
+    color: red;
+    width: 320px;
+    float: right;
+    display: none;
+}
+
+.createConfirmMismatch
+{
+    color: red;
+    width: 320px;
+    float: right;
+    display: none;
+}
+
+/*styles for the account page*/
+
+.accountInfo
+{
+    display: none;
+}
+
+.accountLeft
+{
+    display: none;
+    border: 1px solid black;
+    width: 200px;
+    height: 60px;
+}
+
+.accountName
+{
+    margin: 1em 0 0 3em;
+    font-weight: bold;
+}
+
+.emailAddress
+{
+    margin: 1em 0 0 3em;
+}
+
+.displayName
+{
+    margin: 1em 0 0 1em;
+}
+
+.displayEmail
+{
+    margin: 1em 0 0 1em;
+}
+
+.updateButton
+{
+    background-color: #ADD8E6;
+    border-radius: 8px;
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 80px;
+    float: right;
+}
+
+.updateButton:hover
+{
+    background-color:#FFD700;
+}
+
+#update:hover
+{
+    background-color:#FFD700;
+}
+
+.addElement
+{
+    display: none;
+}
+
+.elementName
+{
+    width: 80px;
+    margin-top: 1em;
+    margin-right: 2em;
+    float: left;
+}
+
+.elementNameInput
+{
+    margin-top: 1em;
+    float: left;
+}
+
+.elementValue
+{
+    width: 80px;
+    margin-top: 1em;
+    margin-right: 2em;
+    float: left;
+}
+
+.elementValueInput
+{
+    margin-top: 1em;
+    float: left;
+}
+
+.addButton
+{
+    background-color: #ADD8E6;
+    border-radius: 8px;
+    margin: 1em 0 0 7em;
+    width: 80px;
+    clear: both;
+}
+
+.addButton:hover
+{
+    background-color:#FFD700;
+}
+
+.key
+{
+    margin: 1em 0 0 3em;
+}
+
+.mobileLogin
+{
+    display: none;
+}
+
+.mobileCreate
+{
+    display: none;
+}
+
+/* media query for screen size */
+@media only screen and (max-width: 320px) {
+
+    body {
+        width: 300px;
+        height: 100%;
+        margin: 0 10px 0;
+    }
+
+    .header
+    {
+        text-align: center;
+    }
+
+    .paragraph
+    {
+        text-align: center;
+    }
+
+    .footer
+    {
+        text-align: center;
+    }
+
+    .loginText {
+        display: none;
+    }
+
+    .mobileLogin
+    {
+        display: block;
+        margin-left: 1em;
+        font: 16px Cambria, bold;
+    }
+
+    .mobileCreate
+    {
+        display: block;
+        margin-left: 1em;
+        font: 16px Cambria, bold;
+    }
+
+    .loginButton {
+        width: 280px;
+        margin: .5em 1em 0 0;
+    }
+
+    .createSection {
+        height: 20px;
+    }
+
+
+    .createButton {
+        width: 280px;
+        margin: .5em 1em 0 0;
+    }
+
+    .createText {
+        display: none;
+    }
+
+    .createUser {
+        margin-top: .5em;
+        margin-right: 1em;
+        width: 160px;
+        float: right;
+    }
+
+    .createUserLabel {
+        clear: left;
+        margin-left: .25em;
+    }
+
+    .createPassword {
+        margin-top: .5em;
+        margin-right: 1em;
+        width: 160px;
+        float: right;
+    }
+
+    .createPasswordLabel {
+        margin-left: .25em;
+    }
+
+    .createEmail {
+        margin-top: .5em;
+        margin-right: 1em;
+        width: 160px;
+        float: right;
+    }
+
+    .createEmailLabel {
+        margin-left: .25em;
+    }
+
+    .createConfirm {
+        margin-top: .5em;
+        margin-right: 1em;
+        width: 160px;
+        float: right;
+    }
+
+    .createConfirmLabel {
+        margin-left: .25em;
+    }
+
+    .userLabel {
+        margin-left: .25em;
+    }
+
+    .passwordLabel {
+        margin-left: .25em;
+    }
+
+    .content {
+        height: 320px;
+    }
+
+    .divider
+    {
+        width: 280px;
+    }
+
+    .addButton {
+        width: 280px;
+        margin: .5em 0 0 3em;
+        float: right;
+    }
+
+    .accountLeft
+    {
+        border: none;
+    }
+
+    .accountName
+    {
+        margin: 1em 0 0 3em;
+        font-weight: bold;
+    }
+
+    .emailAddress
+    {
+        margin: 1em 0 0 3em;
+    }
+
+    .displayName
+    {
+        margin: 1em 0 0 1em;
+    }
+
+    .displayEmail
+    {
+        margin: 1em 0 0 1em;
+    }
+}
+
